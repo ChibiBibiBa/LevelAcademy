@@ -1,4 +1,4 @@
-<h1 class="iframesTitle"><slot /></h1>
+<h2 class="iframesTitle"><slot /></h2>
 
 <style>
   .iframesTitle {

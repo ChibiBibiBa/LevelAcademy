@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Separator from "../../Separator.svelte";
+  import Separator from "$lib/components/HomePage/Common/Separator.svelte";
   import SectionHeader from "../Common/SectionHeader.svelte";
 </script>
 

@@ -1,8 +1,5 @@
 <script lang="ts">
   import "./styles.css";
-
-  import Header from "./Header.svelte";
-  import Separator from "../lib/components/Separator.svelte";
 </script>
 
 <svelte:head>
@@ -39,7 +36,6 @@
   />
 </svelte:head>
 
-<!-- <Header></Header> -->
 <main>
   <slot />
 </main>
