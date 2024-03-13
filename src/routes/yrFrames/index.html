@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=#, initial-scale=1.0">
+    <title>YtFrame</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+
+        body,
+        html {
+            width: 100vw;
+            height: 100vh;
+
+            margin: 0;
+            padding: 0;
+
+            overflow: hidden;
+
+
+            box-sizing: border-box;
+        }
+
+        .iframesContainer {
+            padding-top: 90px;
+            padding-bottom: 90px;
+
+            overflow: hidden;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            height: 90vh;
+            width: 100%;
+
+            background-image: url("http://levelacademy.com.mt/wp-content/uploads/2022/03/level-academy-banner-orange-blur.jpg?id=1685");
+        }
+
+        .iframesTitle {
+            font-family: "Dosis", Arial, Helvetica, sans-serif;
+            font-size: 32px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-optical-sizing: auto;
+            font-style: normal;
+
+            font-weight: 200px;
+
+            color: white;
+
+            margin: 0;
+        }
+
+        .separator {
+            width: 50%;
+            margin: 30px 0px 30px 0px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .separator span {
+            width: 47%;
+
+            height: 1px;
+            background-color: rgb(96, 96, 96);
+
+        }
+
+        .separatorDot {
+            width: 5px;
+            height: 5px;
+
+            margin-right: 10px;
+            margin-left: 10px;
+
+            background-color: #FB5304;
+            border-radius: 999999px;
+        }
+
+        .iframesGridContainer {
+            width: 70%;
+            height: auto;
+
+            margin-top: 30px;
+
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 30px;
+            grid-row-gap: 40px;
+        }
+
+        .iframesGridContainer iframe {
+            width: 555px;
+            height: 312px;
+
+            justify-self: center;
+
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="iframesContainer">
+        <h1 class="iframesTitle">
+            Going afk series - level academy
+        </h1>
+        <div class="separator">
+            <span></span>
+            <div class="separatorDot"></div>
+            <span></span>
+        </div>
+        <div class="iframesGridContainer">
+            <iframe
+                loading="lazy"
+                src="https://www.youtube.com/embed/PewDgSE_XM0?feature=oembed">
+            </iframe>
+            <iframe
+                loading="lazy"
+                src="https://www.youtube.com/embed/DmkVtCk05sM?feature=oembed">
+            </iframe>
+            <iframe
+                loading="lazy"
+                src="https://www.youtube.com/embed/uTaafZum59E?feature=oembed">
+            </iframe>
+            <iframe
+                loading="lazy"
+                src="https://www.youtube.com/embed/QD5ywvpLye0?feature=oembed">
+            </iframe>
+        </div>
+    </section>
+</body>
+
+</html>
