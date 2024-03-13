@@ -1,15 +1,18 @@
 :root {
-    --background: #18191b;
-    --accent: #FB5304;
+  --background: #18191b;
+  --accent: #fb5304;
+  --sectionPadding: 15vh;
 }
 
 body {
-    margin: 0;
-    background-color: var(--background);
+  margin: 0;
+  background-color: var(--background);
+  background-image: url("http://levelacademy.com.mt/wp-content/uploads/2022/03/level-academy-banner-orange-blur.jpg?id=1685");
+  background-attachment: fixed;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }

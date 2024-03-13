@@ -1,0 +1,95 @@
+:root {
+    --accent: #FB5304;
+    font-family: Comic;
+}
+
+body {
+    color: #ddd;
+    background-color: #18191B;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    font-family: "Dosis", Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.development-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.development-card {
+    width: 30%;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.development-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+.development-card h2 {
+    font-size: 1.5em;
+}
+
+.development-card p {
+    font-size: 1em;
+    line-height: 1.6;
+
+}
+
+.container span {
+    color: var(--accent);
+}
+
+.separator span {
+    height: 5px;
+    width: 5px;
+    border-radius: 5px;
+    background-color: var(--accent);
+    display: inline-block;
+    position: relative;
+}
+
+.separator span:before,
+.separator span:after {
+    content: "";
+    position: absolute;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.1);
+    width: 300px;
+    top: 2px;
+}
+
+.separator span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.separator span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+.separator span i {
+    font-size: 6px;
+    padding: 0;
+    margin: 0;
+    float: none;
+}
